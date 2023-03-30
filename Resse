@@ -1,0 +1,42 @@
+def func1(arg1, arg2):
+    def func2(arg3, arg4):
+        var8 = func3(arg1, arg4)
+        var13 = func5(var8, arg4)
+        var14 = arg1 ^ arg1 | arg2 - arg1 + (arg2 - (var8 + arg3))
+        var15 = (1573923007 & var14) + (-625 | var14) - (var14 - arg4 + var14 ^ 469 + var13 | var14)
+        result = arg2 & var13
+        return result
+    var16 = func2(arg2, arg1)
+    var17 = var16 - 856 - -772 | (-988 | 306632971 ^ 1758735570 - var16)
+    if arg2 < arg1:
+        var18 = var16 - var17
+    else:
+        var18 = 639 & -863761410
+    var19 = (arg1 + var16 - (212 & (arg2 ^ ((-711823197 | var16 ^ var16) - arg1 ^ arg2 - 684 + -908)))) | (var16 + (arg2 - ((((var16 + var16) - var17) ^ -810) ^ var16) - var17 - -617714368 + arg1) ^ 876)
+    result = (var16 - (var16 | var19)) ^ var16 ^ -819 & (var16 ^ arg1 & (arg2 + arg1) ^ 9889296) + var16
+    return result
+def func5(arg9, arg10):
+    var11 = 0
+    for var12 in (var11 & (7 + (-2 + arg9)) for i in (-3 ^ -5 & 7 for i in range(20))):
+        var11 += (-10 ^ var12) + var12
+    return var11
+def func3(arg5, arg6):
+    closure = [0]
+    def func4(acc, rest):
+        var7 = ((-4 - ((acc & -3) & rest | -3)) - -3) ^ -1
+        closure[0] += var7
+        if acc == 0:
+            return var7
+        else:
+            result = func4(acc - 1, var7)
+            return result
+    result = func4(10, 0)
+    return result
+if __name__ == "__main__":
+    print 'prog_size: 5'
+    print 'func_number: 6'
+    print 'arg_number: 20'
+    for i in xrange(25000):
+        x = 5
+        x = func1(x, i)
+        print x,
